@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+venv/
+.venv/
+env/
+lib/
+pip-selfcheck.json
+
+# Databases and Vector Stores (Local data)
+data/audit_log.db
+data/chroma_db/
+
+# Editor / IDE configuration
+.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Formatter cache
+.ruff_cache/
+
